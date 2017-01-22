@@ -2,7 +2,7 @@ table, td {
   border: 1px solid black;
 }
 
-img {
-  height:50px;
-  width:50px;
+td img {
+  height:100px;
+  width:100px;
 }
