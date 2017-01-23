@@ -20,4 +20,8 @@ a{
 
 #header {
   background-color: #FF6600;
+  border-style: none;
+  width: 100%;
+  top: 0;
+  position: fixed;
 }
