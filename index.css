@@ -17,3 +17,7 @@ div {
 a{
   text-decoration: none;
 }
+
+#header {
+  background-color: #FF6600;
+}
