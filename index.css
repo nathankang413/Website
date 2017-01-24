@@ -14,7 +14,7 @@ a {
 
 div p {
   font-size: 15px;
-  float: left;
+  left: 15;
   font-family: fantasy;
 }
 
@@ -27,10 +27,11 @@ div p {
 }
 
 li {
-    list-style: none;
-    float: left;
-    margin-right: 15px;
-    padding-top: 15px;
+  font-size: 10;
+  list-style: none;
+  float: left;
+  margin-right: 15px;
+  padding-top: 15px;
 }
 
 #nav {
