@@ -8,13 +8,14 @@ h1 {
   color:blue;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
 div p {
   font-size: 15px;
   float: left;
+  font-family: fantasy;
 }
 
 #header {
