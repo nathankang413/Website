@@ -1,39 +1,43 @@
 body {
-  width: 100%;
-  margin: auto;
-  color: #3e3e3e;
+  width:100%;
+  margin:auto;
 }
 
-h1 {
-  color:blue;
-}
-
-a {
-  text-decoration: none;
-}
-
-div p {
-  font-size: 15px;
-  left: 15;
-  font-family: fantasy;
+.container {
+  width:968px;
+  margin:0 auto;
 }
 
 #header {
-  border-style: none;
-  background: #6396bc;
+  background-color: #3e3e3e;
   width: 100%;
-  top: 0;
-  position: fixed;
+  top:0;
+  position:fixed;
 }
 
-li {
-  font-size: 10;
-  list-style: none;
-  float: left;
-  margin-right: 15px;
-  padding-top: 15px;
+#logo {
+  float:left;
+}
+
+#logo>h1>a{
+  font-family: fantasy;
+  text-decoration: none;
+  color: #0078ff;
 }
 
 #nav {
-    float: right;
+  float:right;
+}
+
+#nav>ul>li {
+  list-style: none;
+  margin-right: 15px;
+  margin-top: 15px;
+  float: left;
+}
+
+li>a {
+  color: #0078ff;
+  text-decoration: none;
+  font-family: fantasy;
 }
